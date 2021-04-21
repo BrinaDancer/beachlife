@@ -1,0 +1,223 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+    width 100vw; 
+    height: 100vh; 
+    margin: 0; 
+    background: #E2EDF3ff;
+    overflow-x: hidden;
+}
+
+/* Add a blue background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color:#E2EDF3ff;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 30px 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+    color: #989F8Eff;
+  }
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+    color: #989F8Eff;
+  }
+  
+  /* Centered section inside the top navigation */
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 25%;
+    left: 45%; 
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-family: 'Poiret One';
+    font-size: 50px;
+  }
+  
+  /* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+  }
+
+#top {
+  display: inline-block;
+  height: 500px; 
+  width: 100%; 
+}
+  /* text for curved section */
+.curved h1 {
+    margin-top: 3%;
+    margin-left: 50%;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: 'Poiret One';
+
+}
+.curved p {
+    font-size 1rem; 
+    margin-left: 50%;
+    padding-top: 0px;
+    font-family: 'Poiret One';
+}
+
+.curved svg {
+    display: block;
+}
+
+.feature-img {
+    height: 330px;  
+    margin-top: 3%;
+    margin-left: 25%;
+    position: absolute;
+    float: left;
+}
+
+.second-img {
+  height: 300px;  
+  margin-top: 20%;
+  margin-left: 15%;
+  position: absolute;
+  float: left;
+}
+
+#welcome {
+  display: inline-block;
+  height: 500px; 
+  background:#989F8Eff;
+  width: 100%;
+}
+
+.welcome h1 {
+  margin-top: 10%;
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 50px;
+  color: aliceblue;
+  font-family: 'Poiret One';
+} 
+
+.welcome p {
+  margin-top: 0%;
+  padding-top: 0px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: aliceblue;
+  font-family: 'Poiret One';
+} 
+
+#hello {
+  display: inline-block;
+  height: 500px; 
+  background:#E2EDF3ff;
+  width: 100%;
+}
+
+.hello h1 {
+  margin-top: 10%;
+  padding-top: 5px;
+  margin-left: 20%;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-family: 'Poiret One';
+} 
+
+.hello p {
+  margin-top: 0%;
+  padding-top: 0px;
+  margin-left: 20%;
+  padding-bottom: 25px;
+  margin-bottom: 0;
+  font-family: 'Poiret One';
+} 
+
+.button {
+  margin-left: 20%;
+  font-family: 'Poiret One';
+  border: black 2px solid; 
+  background-color: transparent; 
+  text-align: center;
+  display: inline-block;
+  font-size: 16px; 
+  padding: 10px 15px; 
+}
+
+.button:hover {
+  background-color: #989F8Eff; 
+  color: aliceblue;
+}
+
+.third-img {
+  height: 75%;  
+  margin-top: 10%;
+  margin-left: 50%;
+  position: absolute;
+  float: right;
+}
+
+#about {
+  display: inline-block;
+  height: 400px; 
+  background: #989F8Eff;
+  width: 100%; 
+}
+
+.about h1 {
+  margin-top: 10%;
+  padding-top: 5px;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color:aliceblue;
+  font-size: 50px;
+  font-family: 'Poiret One';
+} 
+
+.fourth-img { 
+  height: 400px;
+  width: 500px;   
+  margin-top: 0%;
+  margin-left: 63%;
+  position: absolute;
+  float: left;
+}
+
+.fiveth-img {
+  height: 400px;  
+  width: 500px; 
+  margin-top: 0%;
+  margin-left: 0%;
+  position: absolute;
+  float: right;
+}
+
+h3 {
+  text-align: center; 
+  background-color: #989F8Eff; 
+  color: aliceblue; 
+  font-family: 'Poiret One';
+  margin-top: 0%;
+} 
